@@ -9,26 +9,22 @@
 
 <script>
 export default {
-  props: {
-    error: {
-        type: Object,
-        default: () => {
-            return {
-                statusCode: 'Unknown',
-                message: '页面发生未知错误'
-            }
-        }
-    }
-  },
+  props: ['error'],
   layout: 'blog', // 你可以为错误页面指定自定义的布局
 }
 </script>
-<style lang="less">
+<style lang="less" scoped>
     .g-bd{
         text-align: center;
         padding-top: 80px;
         h1{
             font-size: 5em;
+            display: block;
+            -webkit-margin-before: 0.67em;
+            -webkit-margin-after: 0.67em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            font-weight: bold;
         }
         span{
             color:crimson;

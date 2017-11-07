@@ -3,11 +3,13 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'finalshow_nuxt',
+    title: 'Kinice的个人博客',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { name: 'author', content: 'Kinice' },
+      { name: 'baidu-site-verification', content: 'yo7pE95Dym' },
+      { hid: 'description', name: 'description', content: 'Kinice的个人博客，分享kinice的点滴生活' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -20,7 +22,15 @@ module.exports = {
   /*
   ** Build configuration
   */
+  css: [
+    // load assets css file
+    '~assets/css/reset.css',
+    '~assets/css/iconfont.css',
+    { src: '~assets/css/commonNew.less', lang: 'less' }
+  ],
   build: {
+    //plugins
+    vendor: ['axios'],
     /*
     ** Run ESLint on save
     */
