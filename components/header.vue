@@ -27,7 +27,7 @@
             <ul>
                 <li><nuxt-link to="/">主页</nuxt-link></li>
                 <li>
-                    <nuxt-link to="/aboutme.html#/board">关于我</nuxt-link>
+                    <a href="/impress/aboutme.html">关于我</a>
                     <ul class="li-inside">
                         <li><a href="https://github.com/Kinice/" class="iconfont" target="_blank">&#xe600;</a></li>
                     </ul>
