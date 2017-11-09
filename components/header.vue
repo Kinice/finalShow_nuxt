@@ -32,9 +32,8 @@
                         <li><a href="https://github.com/Kinice/" class="iconfont" target="_blank">&#xe600;</a></li>
                     </ul>
                 </li>
-                <li><nuxt-link to="/articleList/all">文章列表</nuxt-link></li>
                 <li>
-                    <a href="/articleList/all">文章列表</a>
+                    <nuxt-link to="/articleList/all">文章列表</nuxt-link>
                     <ul class="li-inside">
                         <li><nuxt-link to="/articleList/about-code">工作日常</nuxt-link></li>
                         <li><nuxt-link to="/articleList/brain-hole">脑洞钻孔</nuxt-link></li>

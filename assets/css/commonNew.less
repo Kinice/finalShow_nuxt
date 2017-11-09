@@ -51,6 +51,10 @@
   height: @mobileIcon;
   width: @mobileIcon;
 }
+#__nuxt{
+  position: relative;
+  min-height: 100%;
+}
 //header part
 header{
   width: 100%;
@@ -199,7 +203,6 @@ nav{
     height: @footHeight;
   }
   padding-top: 0.1px;
-  min-height: 100%;
   margin-bottom: -@footHeight;
 }
 .g-bd{
@@ -240,6 +243,7 @@ nav{
         .delete{
           display: none;
           vertical-align: middle;
+          margin-left: 15px;
         }
       }
       p.info{
@@ -662,6 +666,9 @@ nav{
   }
 }
 footer.g-ft{
+  position: absolute;
+  left: 0;
+  bottom: 0;
   height: @footHeight;
   width: 100%;
   background-color: @headBgColor;
