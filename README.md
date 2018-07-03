@@ -1,4 +1,4 @@
 # finalshow_nuxt
 
-> My as finalShow blog rewrite with nuxt.js.
+> My as finalShow blog rewrite by nuxt.js.
 
